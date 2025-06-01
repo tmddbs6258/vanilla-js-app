@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Vanilla JS Graduation Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 시계 -->
+    <h2 id="clock">00:00:00</h2>
+
+    <!-- 로그인 -->
+    <form id="login-form" class="hidden">
+      <input type="text" placeholder="이름을 입력하세요" required />
+      <button>로그인</button>
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
+
+    <!-- 투두리스트 -->
+    <form id="todo-form">
+      <input type="text" placeholder="오늘의 할 일은?" required />
+    </form>
+    <ul id="todo-list"></ul>
+
+    <!-- 날씨 정보 -->
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
+
+    <script src="script/clock.js"></script>
+    <script src="script/login.js"></script>
+    <script src="script/todo.js"></script>
+    <script src="script/background.js"></script>
+    <script src="script/weather.js"></script>
+  </body>
+</html>
